@@ -16,7 +16,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-$to = 't.p.sas@online.nl'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'oirschot9@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "WO I Trips aanmelding:  $name";
 $email_body = "Nieuwe aanmelding WO I trips.\n\n"."Detail hieronder:\n\nNaam: $name\n\nEmail: $email_address\n\nTelefoon: $phone\n\nBericht:\n$message";
 $headers = "From: noreply@wo1trips.nl\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
